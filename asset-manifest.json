@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mmaximmmakarov/todo-list-mindbox/static/css/main.aa66ffa3.css",
-    "main.js": "/mmaximmmakarov/todo-list-mindbox/static/js/main.0e2dc6f9.js",
-    "static/js/453.67469004.chunk.js": "/mmaximmmakarov/todo-list-mindbox/static/js/453.67469004.chunk.js",
-    "index.html": "/mmaximmmakarov/todo-list-mindbox/index.html",
-    "main.aa66ffa3.css.map": "/mmaximmmakarov/todo-list-mindbox/static/css/main.aa66ffa3.css.map",
-    "main.0e2dc6f9.js.map": "/mmaximmmakarov/todo-list-mindbox/static/js/main.0e2dc6f9.js.map",
-    "453.67469004.chunk.js.map": "/mmaximmmakarov/todo-list-mindbox/static/js/453.67469004.chunk.js.map"
+    "main.css": "/todo-list-mindbox/static/css/main.aa66ffa3.css",
+    "main.js": "/todo-list-mindbox/static/js/main.c070c317.js",
+    "static/js/453.67469004.chunk.js": "/todo-list-mindbox/static/js/453.67469004.chunk.js",
+    "index.html": "/todo-list-mindbox/index.html",
+    "main.aa66ffa3.css.map": "/todo-list-mindbox/static/css/main.aa66ffa3.css.map",
+    "main.c070c317.js.map": "/todo-list-mindbox/static/js/main.c070c317.js.map",
+    "453.67469004.chunk.js.map": "/todo-list-mindbox/static/js/453.67469004.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa66ffa3.css",
-    "static/js/main.0e2dc6f9.js"
+    "static/js/main.c070c317.js"
   ]
 }
