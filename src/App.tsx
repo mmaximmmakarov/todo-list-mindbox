@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useMemo } from "react";
 import { Input, Button, Checkbox, List, Radio } from "antd";
 import "antd/dist/reset.css";
 import "./App.css"; // Создать CSS файл для стилей
@@ -50,7 +50,7 @@ const App: React.FC = () => {
         setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
     }, []);
 
-    const filteredTodos = todos.filter((todo) => {
+    const filteredTodos = useMemo(() => todos.filter((todo) => {
         if (filter === "completed") {
             return todo.isCompleted;
         } else if (filter === "incomplete") {
@@ -58,7 +58,7 @@ const App: React.FC = () => {
         } else {
             return true;
         }
-    });
+    }), [ todos ]);
 
     return (
         <div className="app-container">
