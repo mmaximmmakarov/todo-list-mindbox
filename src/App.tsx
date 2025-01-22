@@ -1,7 +1,8 @@
 import React, { useState, useCallback, useMemo } from "react";
 import { Input, Button, Checkbox, List, Radio } from "antd";
 import "antd/dist/reset.css";
-import "./App.css"; // Создать CSS файл для стилей
+
+import "./App.css";
 
 interface TodoItem {
     id: number;
@@ -95,14 +96,15 @@ const App: React.FC = () => {
                                 Удалить
                             </Button>,
                         ]}
+                        className="ant-list-item-custom"
                     >
                         <Checkbox
                             checked={todo.isCompleted}
                             onChange={() => toggleTodo(todo.id)}
                         >
-              <span className={todo.isCompleted ? "todo-completed" : "todo-text"}>
-                {todo.text}
-              </span>
+                          <span className={todo.isCompleted ? "todo-completed" : "todo-text"}>
+                            {todo.text}
+                          </span>
                         </Checkbox>
                     </List.Item>
                 )}

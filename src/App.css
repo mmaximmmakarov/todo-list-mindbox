@@ -21,3 +21,7 @@
 .todo-text {
   text-decoration: none;
 }
+
+.ant-list-item-custom {
+  flex-wrap: initial !important;
+}
